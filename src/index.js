@@ -1,7 +1,4 @@
-const elvenShieldRecipe = {
-    leatherStrips: 2,
-    ironIngot: 1,
-    refinedMoonstone: 4,
-};
-
-console.log(elvenShieldRecipe);
+console.log('Is working');
+if (module.hot) {
+    module.hot.accept();
+}

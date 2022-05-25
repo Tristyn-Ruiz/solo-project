@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,8 +19,6 @@
   },
   "homepage": "https://github.com/Tristyn-Ruiz/solo-project#readme",
   "devDependencies": {
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.9.0"
+    "parcel-bundler": "^1.12.5"
   }
 }
